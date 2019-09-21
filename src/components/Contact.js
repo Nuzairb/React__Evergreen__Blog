@@ -11,17 +11,17 @@ class Contact extends Component {
                     <h3 className="text-uppercase text-center text-white font-weight-light mb-4">Become A Part of Evergreen!</h3>
                     <Form className="font-weight-bold">
                         <Form.Row>
-                            <Col>
-                                <Form.Control className="rounded-0" placeholder="Name" />
+                            <Col lg={3} md={6} sm={12} >
+                                <Form.Control className="rounded-0 my-2" placeholder="Name" />
                             </Col>
-                            <Col>
-                                <Form.Control className="rounded-0" placeholder="Phone" />
+                            <Col lg={3} md={6} sm={12} >
+                                <Form.Control className="rounded-0 my-2" placeholder="Phone" />
                             </Col>
-                            <Col>
-                                <Form.Control className="rounded-0" placeholder="Email" />
+                            <Col lg={3} md={6} sm={12} >
+                                <Form.Control className="rounded-0 my-2" placeholder="Email" />
                             </Col>
-                            <Col>
-                                <Button className="w-100 rounded-0" variant="dark" type="submit">
+                            <Col lg={3} md={6} sm={12} >
+                                <Button className="w-100 rounded-0 my-2" variant="dark" type="submit">
                                     Submit
                                 </Button>
                             </Col>
