@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #111;
+}
+
+.nav-item:hover {
+    background-color: white;
+}
+
+.nav-item:hover a {
+    color: darkgreen;
+}
