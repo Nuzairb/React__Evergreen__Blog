@@ -1,0 +1,26 @@
+.Info {
+    background: #FFF;
+}
+.Info-text {
+    padding: 1rem;
+}
+
+.Info-text p {
+    font-family: serif;
+    line-height: 1.7;
+}
+
+@media only screen and (min-width: 1024px) {
+    .Info-text {
+        padding-left: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .Info-text {
+        padding: 5rem;
+    }
+    .Info-text p {
+        line-height: 1.9;
+    }
+}
