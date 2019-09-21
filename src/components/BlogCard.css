@@ -1,0 +1,12 @@
+.card-body hr {
+    width: 60px;
+    margin: 30px auto 10px auto;
+    border: 1px solid #aaa;
+}
+.card-title {
+    font-size: 30px;
+}
+.card-text {
+    font-family: serif;
+    font-weight: bold;
+}

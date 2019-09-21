@@ -1,5 +1,7 @@
 .NewArticle {
     background-color: #FAF2EA;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .NewArticle h2 {
