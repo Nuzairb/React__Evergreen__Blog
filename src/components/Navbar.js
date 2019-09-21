@@ -1,30 +1,29 @@
 import React, { Component } from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.css';
 
-class Navbar extends Component {
+
+class Navigation extends Component {
   render() {
     return (
-      <nav className="navbar">
-        <ul className="navbar-nav">
-            <li className="nav-item">
-                <a className="nav-link" href="/">Home</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="/">Newest</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="/">About</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="/">Blog</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="/">Contact</a>
-            </li>
-        </ul>
-      </nav>
+      <Container>
+        <Navbar  fixed="top" expand="lg">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ml-auto text-uppercase font-weight-bold">
+              <Nav.Link className="mx-2 text-dark" href="#home">Home</Nav.Link>
+              <Nav.Link className="mx-2 text-dark" href="#newest">Newest</Nav.Link>
+              <Nav.Link className="mx-2 text-dark" href="#about">About</Nav.Link>
+              <Nav.Link className="mx-2 text-dark" href="#blog">Blog</Nav.Link>
+              <Nav.Link className="mx-2 text-dark" href="#contact">Contact</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>  
+      </Container>
     );
   }
 }
 
-export default Navbar;
+export default Navigation;

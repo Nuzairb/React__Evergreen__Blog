@@ -2,5 +2,10 @@
     background-image: url(../img/botanical-cactus-close-up-305821.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 600px;
+    margin: 15px;
+}
+.header h1 {
+    padding-top: 200px;
+    font-size: 72px;
 }
