@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {Container, Row, Col} from 'react-bootstrap';
 import BlogCard from './BlogCard';
 import CardImg1 from '../img/plant1.jpg';
 import CardImg2 from '../img/plant2.jpg';

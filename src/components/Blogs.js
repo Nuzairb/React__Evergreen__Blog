@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col, Button} from 'react-bootstrap';
 import BlogCard from './BlogCard';
 import CardImg1 from '../img/blog1.jpg';
 import CardImg2 from '../img/blog2.jpg';
@@ -12,6 +12,13 @@ const divStyle = {
     padding: '5rem 0',
     background: '#FAF2EA'
 };
+
+const btnStyle = {
+    background: '#A1ACA1',
+    outline: 'none',
+    position: 'absolute',
+    right: '20px'
+}
 
 class Blogs extends Component {
     render() {
@@ -39,8 +46,10 @@ class Blogs extends Component {
                         </Col>
                         <Col xs={12} sm={6}  md={4}>
                             <BlogCard cardImg={CardImg2} cardTitle="Desert Plants" cardBody="Liora in sisus? Non frigilla non lacus tortor. neque purus, plecerat elit." />
+                            <Button style={btnStyle} className="rounded-0 border-0 px-3 shadow text-right">Next</Button>
                         </Col>
                     </Row>
+                    
                 </Container>
             </div>
         )
